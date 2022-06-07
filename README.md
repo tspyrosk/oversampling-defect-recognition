@@ -7,7 +7,7 @@ On-the-fly Image-level Oversampling for Imbalanced Datasets of Manufacturing Def
 
 `input/biggan-generator/generate_images.py`: contains the code responsible for image generation including tiling and best images selection
 
-`input/biggan-generator/generate_images.py`: defines classes related to BigGAN and the adaptation of its batch-norm layers
+`input/biggan-generator/biggan_generator.py`: defines classes related to BigGAN and the adaptation of its batch-norm layers
 
 The last two files borrow from the following repositories:
 https://github.com/ajbrock/BigGAN-PyTorch/,
