@@ -26,7 +26,6 @@ torch >= 1.11.0
 Download the 128x128 pre-trained weights from the BigGAN repository: https://github.com/ajbrock/BigGAN-PyTorch#pretrained-models.
 Place the file named "138k" containing the weights in `input/biggan-weights`.
 
-The input dataset should be under: `input/shaver-shell-full`.
-(**TODO:** Add synthetic dummy dataset under: `input/shaver-shell-full`)
+A dummy input dataset can be found under: `input/dummy-logo-prints`. Unziping the file in place should yield the dataset under `input/dummy-logo-prints/shaver-shell-full`
 
 To run the notebook `src/oversampling-defect-recognition.ipynb` use of one GPU is highly recommended (otherwise synthetic data generation will be really slow).
